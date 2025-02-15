@@ -1,0 +1,9 @@
+[submodule "daskomweb2"]
+	path = daskomweb2
+	url = https://github.com/Daskom-Lab/daskomweb2
+[submodule "daskomrec25"]
+	path = daskomrec25
+	url = https://github.com/Daskom-Lab/daskomrec25
+[submodule "DaskomOfficial-FE"]
+	path = DaskomOfficial-FE
+	url = https://github.com/Daskom-Lab/DaskomOfficial-FE
