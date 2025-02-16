@@ -1,0 +1,33 @@
+services:
+
+  nextjs14:
+    build: ./DaskomOfficial-FE
+    container_name: daskomofficial
+    ports:
+      - "3000:3000"
+
+  laravel10:
+    build: 
+      context: ./daskomrec25
+      args:
+        user: daskom
+        uid: 1000
+    container_name: daskomrec25
+    volumes:
+      - ${PWD}/daskomrec25/.env:/var/www/.env
+    ports:
+      - "8000:80"
+      # - "9000:9000"
+
+  # laravel5:
+  #   build: 
+  #     context: ./daskomweb
+  #     args:
+  #       user: daskom
+  #       uid: 1000
+  #   container_name: daskomweb
+  #   volumes:
+  #     - ./daskomweb:/var/www/html
+  #   ports:
+  #     - "9001:9000"
+  #     - "8001:80"

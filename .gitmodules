@@ -7,3 +7,6 @@
 [submodule "DaskomOfficial-FE"]
 	path = DaskomOfficial-FE
 	url = https://github.com/Daskom-Lab/DaskomOfficial-FE
+[submodule "daskomweb"]
+	path = daskomweb
+	url = https://github.com/daskomdev/daskomweb
